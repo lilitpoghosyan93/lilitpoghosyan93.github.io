@@ -1,0 +1,153 @@
+img {
+border-radius: 50%;
+border: 3px solid   #FAEBD7;
+}
+
+
+
+
+
+header {
+ background-image: url("bg.jpeg");
+ background-color: #FFEBCD;
+ background-repeat: no-repeat;
+ padding: 2em;
+ text-align: center;
+ margin: auto;
+ background-size: cover;
+ background-position: fixed;
+ color: white;
+}
+
+a {
+color: #D2691E;
+}
+
+h1 {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-size: 25px;
+  text-shadow: 1px 0 0 #fff; 
+}
+
+h2 {
+  font-family: 'Oleo Script', cursive;
+  font-size: 20px;
+  text-shadow: 1px 0 0 #fff; 
+}
+
+.contact-details {
+    color: #8B4513;
+    text-align: center;
+    margin: auto;
+    margin-top: 35px;
+    padding: 5px;
+    font-family: 'Original Surfer', cursive; 
+    font-size: 15px;
+}
+
+.p2 { 
+ color: #8B4513; 
+ font-family: Comic Sans MS, Comic Sans, cursive;
+ font-size: 16px; 
+ text-align: center; 
+ line-height: 24px; 
+ text-justify: inter-word;
+}
+
+h3 {
+  color: white;
+  font-size: 25px;
+  text-shadow: 1px 0 0; 
+  font-family: Comic Sans MS, Comic Sans, cursive; 
+  background-color: #F4A460;
+}
+
+
+.edu li:hover{
+  color: #8B4513;
+  font-family: 'Original Surfer', cursive;
+  font-size: 40px;
+  background-color: #DEB887;
+}
+
+
+.edu span {
+  color: #D2691E;
+  text-decoration: underline;
+}
+
+h4 {
+  color: white;
+  font-size: 25px;
+  text-shadow: 1px 0 0; 
+  font-family: Comic Sans MS, Comic Sans, cursive; 
+  background-color: #F4A460;
+}
+
+.course.training ul, ul.training{
+  list-style-type: none;
+}
+
+ul.training li:before{
+  content: "✔";
+  padding-right: 0.5em;
+}
+.title {
+  color: #D2691E;
+  -ms-flex: 0 0 33.3%;
+  flex: 0 0 33.3%;
+  max-width: 23%;
+  font-size: 25px;
+  text-align: left;
+}
+
+.descrition {
+  -ms-flex: 0 0 56.6%;
+  flex: 0 0 56.6%;
+  max-width: 56.6%;
+}
+
+.descrition p {
+  padding-left: 4em;
+
+}
+
+table, th, td{
+  background-color: red;
+  border-style: solid;
+  width: 100%;
+    table-layout: fixed;
+}
+
+.intern{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.skills {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.skills .column {
+  -ms-flex: 0 0 50%%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.skills .column ul, ul.job-description {
+  list-style-type: none;
+}
+
+.skills .column ul > li:before {
+  content: "►";
+  padding-right: 0.5em;
+  color: #509e98;
+}
+
+
+
